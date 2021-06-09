@@ -14,12 +14,10 @@ public class Main {
 
         Boss boss = new Boss ();
         boss.bossName = "Boss";
-        boss.bossHealth = 750;
-        boss.bossDamage = 70;
-        boss.bossDefence = 30;
+        boss.setBossHealth(750);
+        boss.setBossDamage(70);
+        boss.setBossDefence(30);
 
-        System.out.println(boss.bossName + " " + boss.bossHealth + " " + boss.bossDamage + " " + boss.bossDamage);
-
+        System.out.println  (boss.bossName + " " + boss.getBossHealth() + " " + boss.getBossDamage() + " " + boss.getBossDefence());
     }
-
 }
