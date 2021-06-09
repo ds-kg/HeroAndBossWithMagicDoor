@@ -18,6 +18,6 @@ public class Main {
         boss.setBossDamage(70);
         boss.setBossDefence(30);
 
-        System.out.println  (boss.bossName + " " + boss.getBossHealth() + " " + boss.getBossDamage() + " " + boss.getBossDefence());
+        System.out.println (boss.bossName + " " + boss.getBossHealth() + " " + boss.getBossDamage() + " " + boss.getBossDefence());
     }
 }
